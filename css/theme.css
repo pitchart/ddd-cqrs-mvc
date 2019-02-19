@@ -353,19 +353,19 @@ body {
   background: url("../resources/img/picto-quote-yellow.png"); }
 
 .reveal section.quote--yellow h2 {
-  color: #2470b4; }
+  color: #f9b233; }
 
 .reveal section.quote--red:before {
   background: url("../resources/img/picto-quote-red.png"); }
 
 .reveal section.quote--red h2 {
-  color: #a72e52; }
+  color: #e6381c; }
 
 .reveal section.quote--green:before {
   background: url("../resources/img/picto-quote-green.png"); }
 
 .reveal section.quote--green h2 {
-  color: #c8355d; }
+  color: #00a099; }
 
 @media print {
   .reveal {
@@ -501,10 +501,10 @@ body {
   .reveal .prl, .reveal .pal, .reveal .phl {
     padding-right: 1.5em; }
   .reveal .notice {
-    color: #242E5C; }
+    color: #1d70b7; }
   .reveal .success {
-    color: #c8355d; }
+    color: #00a099; }
   .reveal .warning {
-    color: #2470b4; }
+    color: #f9b233; }
   .reveal .error {
-    color: #a72e52; }
+    color: #e6381c; }
