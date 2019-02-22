@@ -5,8 +5,9 @@
     }
 
     img.inline {
-        border: 0;
+        border: none;
         background: none;
+        box-shadow: none;
     }
 
     img.logo {
@@ -19,7 +20,7 @@
     .sf-color { color: #08C !important; }
     .php-color { color: #6C7EB7 !important; }
     .proxy-color { color: #f58006 !important; /* #FC6A31; */ }
-    .anet-color { color: #008AFF !important; }
+    .inside-color { color: #2470b4 !important; }
     .doctrine-color { color: #FC6A31 !important; }
     .tw-color { color: #55ACEE !important; }
 }
