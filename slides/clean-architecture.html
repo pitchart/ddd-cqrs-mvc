@@ -63,3 +63,46 @@
         <li class="fragment">...</li>
     </ul>
 </section>
+<section>
+    <div class="table">
+        <div class="table__row">
+            <div class="table__cell" style="width: 50%">
+                <pre><code class="hljs php">|____Domain
+| |____Event
+| |____Factory
+| |____Model
+| |____Repository
+| |____Service      # Domain services
+| |____Validation   # Domain validation
+|____Infrastructure
+| |____DBAL
+| | |____Type
+| |____ElasticSearch
+| | |____Type
+| |____Resources
+| | |____config
+| | | |____orm
+| |____Service</code></pre>
+            </div>
+            <div class="table__cell" style="width: 50%">
+<pre><code class="hljs php">|____Kernel.php
+|____Application
+| |____Command
+| |____Controller
+| |____DataFixtures # Init. datas
+| |____Form
+| |____Resources
+| | |____config
+| | | |____serializer
+| | | |____validation
+| | | |____services.php
+| |____Service
+| |____UseCase
+| | |____Command
+| | | |____Handler
+| | |____Query      # Interfaces
+| | | |____Dto</code></pre>
+            </div>
+        </div>
+    </div>
+</section>
